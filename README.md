@@ -1,4 +1,4 @@
-# Movilidad urbana y economía en Latinoamérica
+# Movilidad urbana y economía
 
 **Mario Alberto Vivero Sahagún | Python · pandas · Matplotlib**
 
