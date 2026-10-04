@@ -37,9 +37,9 @@ La asociación entre PIB y congestión es débil y sensible a una observación. 
 
 ## Método y herramientas
 
-El trabajo original utiliza Python, pandas, NumPy, Matplotlib y Seaborn para limpiar formatos, filtrar 2024, agregar observaciones de tráfico por ciudad y unirlas con indicadores económicos. La versión ejecutable de este repositorio utiliza pandas y Matplotlib sobre el CSV ya consolidado.
-
-La revisión añade controles del archivo, conversión de PM2.5 a número, correlaciones descriptivas y sensibilidad. Sustituye la comparación de barras de magnitudes distintas por una dispersión con ejes separados. Estas ampliaciones se distinguen de la preparación histórica.
+1. **Preparación de datos:** limpieza de formatos, filtro del año 2024, agregación de las observaciones de tráfico por ciudad y unión con indicadores económicos, con Python, pandas, NumPy, Matplotlib y Seaborn. Este código está en `notebooks/preparacion_historica.ipynb` y requiere fuentes que no se incluyen en el repositorio.
+2. **Análisis:** el notebook principal trabaja sobre el CSV ya consolidado, con pandas y Matplotlib. Incluye controles de calidad del archivo, conversión de PM2.5 a número, correlaciones de Pearson y una prueba de sensibilidad al excluir Ciudad de México.
+3. **Visualización:** gráfico de dispersión con ejes separados para PIB per cápita y congestión.
 
 ![Congestión por ciudad](images/congestion_por_ciudad.png)
 
