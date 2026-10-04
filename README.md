@@ -60,7 +60,9 @@ El notebook principal **se ejecutó completamente con el CSV aportado** al prepa
 | [Resumen ejecutivo](docs/resumen_ejecutivo.md) | Interpretación y acciones propuestas |
 | [Datos y limitaciones](docs/datos_y_limitaciones.md) | Procedencia, variables y decisiones de revisión |
 
-## Alcance
+   ## Alcance y limitaciones
+
+ Proyecto académico presentado como caso de análisis; no corresponde a un encargo para una empresa o gobierno reales.
 
 Muestra de 15 ciudades seleccionadas por disponibilidad conjunta de datos, con un registro consolidado por ciudad en 2024. Incluye Argentina, Brasil, Chile, Colombia, México, Perú y Uruguay; Brasil aporta 9 de las 15 ciudades. No representa a todas las ciudades de Latinoamérica.
 
