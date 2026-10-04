@@ -1,13 +1,19 @@
 # Movilidad urbana y economía en Latinoamérica
 
-**Mario Alberto Vivero | Python · pandas · análisis exploratorio**
+**Mario Alberto Vivero Sahagún | Python · pandas · Matplotlib**
 
-Estudio de la relación entre congestión y PIB per cápita en **15 ciudades de 7 países durante 2024**. Proyecto académico revisado para presentar resultados reproducibles y recomendaciones acordes con la evidencia.
+Análisis de la relación entre congestión y PIB per cápita en 15 ciudades de 7 países durante 2024.
 
 ## Pregunta de análisis
 
-¿Las ciudades con mayor PIB per cápita presentan mayor o menor congestión? La comparación permite identificar preguntas para un diagnóstico urbano posterior; no estima el efecto causal del tráfico sobre la economía.
+¿Las ciudades con mayor PIB per cápita presentan mayor o menor congestión? La comparación es descriptiva y no estima el efecto causal del tráfico sobre la economía.
 
+## Hallazgo clave
+
+- **La relación entre PIB y congestión es débil** (correlación de Pearson de 0.283) y depende de una sola ciudad: al excluir Ciudad de México baja a −0.025.
+- **La congestión se asocia mucho más con el tamaño de la población** (Pearson de 0.879) que con el PIB per cápita.
+- Estos resultados no bastan para priorizar inversión en una ciudad concreta ni para concluir que el tráfico afecte la productividad.
+  
 ## Hallazgos principales
 
 | Resultado | Evidencia en el CSV |
